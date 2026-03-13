@@ -1,0 +1,29 @@
+func greet(name) {
+    print("Hello " + name + "!")
+}
+
+func main() {
+    print("=== Misty Stage 2 - Native Binary ===")
+
+    var x = 10
+    var y = 32
+    var sum = x + y
+
+    print("Sum: " + str(sum))
+
+    if (sum > 40) {
+        print("Greater than 40")
+    } else {
+        print("Less than or equal to 40")
+    }
+
+    greet("Misty")
+
+    var i = 0
+    while (i < 5) {
+        print("i = " + str(i))
+        i = i + 1
+    }
+
+    print("=== Misty runs without Python ===")
+}
